@@ -23,13 +23,9 @@
       "Version": "2012-10-17"
     },
     "resource_type": "iam_policy",
-    "tags": {}
-  },
-  "task3_api": {
-    "resource_type": "api_gateway",
-    "deploy_stage": "api",
-    "dependencies": [],
-    "resources": {},
-    "tags": {}
+    "tags": {},
+    "url_config": {
+      "auth_type": "NONE"
+    }
   }
 }
