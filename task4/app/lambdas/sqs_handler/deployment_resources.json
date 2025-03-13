@@ -11,7 +11,8 @@
         "Action":[
           "sqs:ReceiveMessage",
           "sqs:DeleteMessage",
-          "sqs:GetQueueAttributes"
+          "sqs:GetQueueAttributes",
+          "sns:ListTopics"
         ]
       }
     ],

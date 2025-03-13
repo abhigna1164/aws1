@@ -11,7 +11,8 @@
         "Effect":"Allow",
         "Action":[
           "sns:Subscribe",
-          "sns:Publish"
+          "sns:Publish",
+          "sns:ListTopics"
         ]
       }
     ],
